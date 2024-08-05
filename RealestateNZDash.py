@@ -10,11 +10,14 @@ st.set_page_config(
     layout="wide"
 )
 
-# Hide GitHub button
 st.markdown(
     """
-    #MainMenu {
-    visibility: hidden;
+    <style>
+    .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
+    .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137,
+    .viewerBadge_text__1JaDK, 
+    #root > div:nth-child(1) > div.withScreencast > div > div > header > div.st-emotion-cache-15ecox0.ezrtsby0 > div {
+        display: none;
     }
     </style>
     """,
